@@ -49,3 +49,37 @@
   border-radius: 4px;
   cursor: pointer;
 }
+.edit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.task-editor {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.task-editor input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.task-editor button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff; /* Update button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px; /* Add margin for spacing */
+}
